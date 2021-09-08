@@ -1,7 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+
 
 import { Route, Switch } from 'react-router-dom';
+
+import NavBar from './components/layout/NavBar';
 
 import AllMeetupsPage from './pages/AllMeetups';
 import ImportantPage from './pages/Important';
@@ -10,7 +12,8 @@ import NewMeetingPage from './pages/NewMeetups';
 
 function App() {
     return (
-        <div>
+        <>
+            <NavBar/>
             <Switch>
                 <Route path='/' exact>
                     <AllMeetupsPage />
@@ -24,7 +27,7 @@ function App() {
                     <ImportantPage />
                 </Route>
             </Switch>
-        </div>
+        </>
     )
 }
 

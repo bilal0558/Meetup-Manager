@@ -1,0 +1,33 @@
+.meetupContainer{
+    background: rgb(30, 30, 30);
+    padding: 20px;
+    border-radius: 5px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.image{
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+address{
+    margin-top: 10px;
+}
+.description{
+    color: rgb(150, 150, 150);
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+
+.btn{
+    padding: 5px 10px;
+    background: #0087e0;
+    border: 2px #0087e0 solid;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
