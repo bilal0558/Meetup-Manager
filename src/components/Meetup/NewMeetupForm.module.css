@@ -1,0 +1,32 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 50%;
+}
+
+input[type="text"], input[type="url"], textarea{
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    font-family: sans-serif;
+}
+
+input[type="submit"]{
+    padding: 10px 20px;
+    background: #0087e0;
+    border: 2px #0087e0 solid;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
